@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Home Work 2</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: space-around;
+            align-items: center;
+        }
+        h1{
+            background-color: #344e5c;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+            padding: 10px;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Image</h1>
+        <h3>Click on the image below to visit the link.</h3>
+        <a href="https://kutuphane.karabuk.edu.tr/icerikGoster.aspx?K=S&id=16&BA=index.aspx" target="_blank">
+            <img src="images/kbu.jpeg" height="500" width="500" alt="KARABÜK ÜNİVERSİTESİ KÜTÜPHANE">
+        </a>
+    </div>
+    <div>
+        <h1>Image map</h1>
+        <h3>Click on the device you want below for more information on it.</h3>
+        <img src="images/Desktop.jpg" height="500" width="500" alt="Desktop for image map" usemap="#map">
+        <map name="map">
+            <area href="images/Screen.png" coords="7,30,310,240" shape="rect" alt="screen">
+            <area href="images/Laptop.png" coords="330,177,320,308,273,386,460,440,492,345,501,203" shape="poly" alt="laptop">
+            <area href="images/Headphone.png" coords="70,358,46" shape="circle" alt="Headphone">
+            <area href="images/keyboard.png" coords="72,419,298,466" shape="rect" alt="keyboard">
+            <area href="images/mouse.png" coords="303,428,358,481" shape="rect" alt="mouse">
+        </map>
+    </div>
+    <div>
+        <h1>Color Examples</h1>
+		<h3>Here are some examples of how to use color in your HTML code:</h3>
+        <p style="background-color: #ff9900;">This is an example of a colorful background.</p>
+        <p style="color: slateblue;">This is an example of colorful text.</p>
+        <p style="border: 5px solid #ff0000;">This is an example of a colorful frame.</p>
+    </div>
+</body>
+</html>

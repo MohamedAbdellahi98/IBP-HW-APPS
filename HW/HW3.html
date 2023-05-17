@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Mohamed M.Abdeelahi">
+    <meta name="description" content="Demonstrates the use of various input types in HTML5 with a submit button.">
+    <meta name="generator" content="HTML Generator">
+    <meta name="keywords" content=" HTML5, input types">
+    <title>Home Work 3</title>
+    <style>
+        /* Add some basic styles to improve readability */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        form {
+            margin: 20px;
+            padding: 20px;
+            border: 5px solid #ccc;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="submit"] {
+            display: block;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #2E8B57;
+        }
+    </style>
+</head>
+    <body>
+        <form>
+            <label for="hiddenField">Hidden:</label>
+            <input type="hidden" value="hiddenValue">
+            
+            <label for="telField">Tel:</label>
+            <input type="tel" name="telField">
+            
+            <label for="emailField">Email:</label>
+            <input type="email" name="emailField">
+            
+            <label for="numberField">Number:</label>
+            <input type="number" name="numberField">
+            
+            <label for="rangeField">Range:</label>
+            <input type="range" name="rangeField" min="0" max="100">
+            
+            <label for="searchField">Search:</label>
+            <input type="search" name="searchField">
+            
+            <label for="imageField">Image:</label>
+            <input type="image" src="images/test-button.png" alt="test button">
+            
+            <label for="weekField">Week:</label>
+            <input type="week" name="weekField">
+            
+            <label for="urlField">URL:</label>
+            <input type="url" name="urlField">
+            
+            <label for="datetimeLocalField">Date/Time:</label>
+            <input type="datetime-local" name="datetimeLocalField">
+            
+            <label for="monthField">Month:</label>
+            <input type="month" name="monthField">
+            
+            <label for="timeField">Time:</label>
+            <input type="time" name="timeField">
+            
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
